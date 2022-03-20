@@ -298,7 +298,6 @@
         </t>
         </template>
 
-<!--
         <template id="support_ticket_view_list" name="My Support Appointments" page="True">
         <t t-call="website.layout">
             <div class="container">
@@ -326,7 +325,6 @@
 
         </t>
     </template>
--->
 
 <!--
         <template id="help_page" name="Help Page" page="True">
