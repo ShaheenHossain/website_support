@@ -326,7 +326,7 @@
         </t>
     </template>
 
-<!--
+
         <template id="help_page" name="Help Page" page="True">
         <t t-call="website.layout">
             <div class="container">
@@ -360,7 +360,6 @@
             </div>
         </t>
     </template>
--->
 
         <template id="assets_editor" inherit_id="website.assets_editor" name="Website Support Editor">
         <xpath expr="." position="inside">
@@ -374,7 +373,7 @@
         </xpath>
     </template>
 
-<!--
+
         <template id="support_ticket_view" name="Support Ticket" page="True">
         <t t-call="website.layout">
             <div class="container mt16 mb16">
@@ -449,7 +448,7 @@
 
         </t>
     </template>
--->
+
 
         <template id="support_help_pages" name="Support Help Pages" page="True">
         <t t-call="website.layout">
@@ -521,7 +520,7 @@
         </t>
     </template>
 
-<!--
+
         <template id="content_new_help" inherit_id="website.user_navbar">
         <xpath expr="//div[@id='o_website_add_page_modal']//ul" position="inside">
             <li groups="event.group_event_manager"><a href="#" data-action="new_event"><i class="fa fa-glass"/><p>New Event</p></a></li>
@@ -531,9 +530,9 @@
 
         </xpath>
     </template>
--->
 
-<!--
+
+
         <template id="support_ticket_reporting" name="Support Ticket Reporting" page="True">
         <t t-call="website.layout">
             <div class="container">
@@ -586,9 +585,9 @@
             </div>
         </t>
     </template>
--->
 
-<!--
+
+
         <template id="support_survey_thank_you" name="Support Ticket Survey Thank You" page="True">
         <t t-call="website.layout">
             <div id="wrap" class="oe_structure oe_empty">
@@ -605,7 +604,7 @@
             </div>
         </t>
     </template>
--->
+
 
         <template id="support_thank_you" name="Support Ticket Thank You" page="True">
         <t t-call="website.layout">
