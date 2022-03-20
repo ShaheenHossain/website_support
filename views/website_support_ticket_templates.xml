@@ -372,7 +372,6 @@
         </xpath>
     </template>
 
-<
         <template id="support_ticket_view" name="Support Ticket" page="True">
         <t t-call="website.layout">
             <div class="container mt16 mb16">
