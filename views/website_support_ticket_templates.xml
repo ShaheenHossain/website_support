@@ -36,7 +36,6 @@
         </record>
 -->
 
-<!--
         <record id="new_support_ticket_category" model="mail.template">
             <field name="name">Support Ticket New Ticket (Category)</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -55,9 +54,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <record id="support_ticket_user_change" model="mail.template">
             <field name="name">Support Ticket User Change</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -81,9 +78,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <record id="new_support_ticket_category_change" model="mail.template">
             <field name="name">Support Ticket Category Change</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -108,9 +103,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <record id="support_ticket_closed" model="mail.template">
             <field name="name">Support Ticket Closed</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -136,9 +129,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <record id="support_ticket_new" model="mail.template">
             <field name="name">Support Ticket New</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -166,9 +157,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <record id="support_ticket_reply_wrapper" model="mail.template">
             <field name="name">Support Ticket Reply Wrapper (User)</field>
             <field name="model_id" ref="model_website_support_ticket_compose"></field>
@@ -191,9 +180,7 @@
             ]]>
             </field>
         </record>
--->
 
-<!--
         <template id="support_ticket_survey_page" name="Support Ticket Survey" page="True">
             <t t-call="website.layout">
         <div class="container">
@@ -262,7 +249,6 @@
         </div>
     </t>
         </template>
--->
 
          <template id="account_create" name="Create Support Account" page="True">
             <t t-call="web.login_layout">
