@@ -7,25 +7,23 @@
           <field name="model">website.support.ticket</field>
           <field name="arch" type="xml">
       	      <form>
-                  <header>
+<!--                  <header>
                       <button type="action" name="%(website_support_ticket_compose_action)d" context="{'default_ticket_id': active_id, 'default_partner_id': partner_id, 'default_email':email, 'default_subject':subject}" string="Reply"/>
-<!--
                       <button type="object" name="open_close_ticket_wizard" string="Close Ticket"/>
--->
-<!--
                       <button type="object" name="send_survey" string="Send Survey"/>
--->
-<!--
                       <button type="object" name="request_approval" string="Request Approval"/>
--->
-                  </header>
+                  </header>-->
       	          <sheet>  
       	              <group>
       	                  <field name="create_user_id" invisble="True"/>
       	                  <field name="ticket_number"/>
+<!--
       	                  <field name="priority_id"/>
+-->
       	                  <field name="user_id"/>
+<!--
       	                  <field name="partner_id"/>
+-->
           	          <field name="person_name"/>
           	          <field name="email"/>
 <!--
@@ -34,9 +32,15 @@
 <!--
           	          <field name="sub_category_id" domain="[('parent_category_id','=',category)]"/>
 -->
+<!--
           	          <field name="state"/>
+-->
+<!--
           	          <field name="approval_id"/>
+-->
+<!--
           	          <field name="subject"/>
+-->
 <!--
           	          <field name="attachment" filename="attachment_filename" attrs="{'invisible' :[('attachment', '=', False)]}"/>
 -->
@@ -93,12 +97,20 @@
       	          <field name="create_user_id" invisble="True"/>
       	          <field name="ticket_color" invisible="1"/>
       	          <field name="ticket_number_display" string="Ticket Number"/>
+<!--
       	          <field name="priority_id"/>
+-->
       	          <field name="person_name"/>
+<!--
       	          <field name="category"/>
+-->
+<!--
       	          <field name="state"/>
+-->
       	          <field name="email"/>
+<!--
       	          <field name="subject"/>
+-->
       	      </tree>
       	  </field>
       </record>
@@ -164,24 +176,24 @@
 -->
 
       <record id="website_support_ticket_action_partner" model="ir.actions.act_window">
-          <field name="name">Support Tickets</field>
+          <field name="name">Appointments</field>
 	  <field name="res_model">website.support.ticket</field>
 	  <field name="view_mode">tree,kanban,form,graph</field>
 	  <field name="help" type="html">
 	      <p>
-	          No Support Tickets found
+	          No Patient Form found
 	      </p>
           </field>
       </record>
 
       <record id="website_support_ticket_action" model="ir.actions.act_window">
-          <field name="name">Support Tickets</field>
+          <field name="name">Appoinments</field>
 	  <field name="res_model">website.support.ticket</field>
 	  <field name="view_mode">tree,kanban,form,graph</field>
 	  <field name="context">{"search_default_unattended_tickets":1, 'auto_refresh': 1, 'default_create_user_id': uid}</field>
 	  <field name="help" type="html">
 	      <p>
-	          No Support Tickets found
+	          No Patient Form found
 	      </p>
           </field>
       </record>

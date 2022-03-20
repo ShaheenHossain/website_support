@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
+<!--
       <record id="website_support_ticket_states_view_form" model="ir.ui.view">
           <field name="name">website.support.ticket.states.form.view</field>
           <field name="model">website.support.ticket.states</field>
@@ -13,7 +14,9 @@
       	      </form>
       	  </field>
       </record>
+-->
 
+<!--
       <record id="website_support_ticket_states_view_tree" model="ir.ui.view">
           <field name="name">website.support.ticket.states.tree.view</field>
           <field name="model">website.support.ticket.states</field>
@@ -24,7 +27,9 @@
       	      </tree>
       	  </field>
       </record>
+-->
 
+<!--
       <record id="website_support_ticket_states_action" model="ir.actions.act_window">
           <field name="name">Support Ticket States</field>
       	  <field name="res_model">website.support.ticket.states</field>
@@ -34,6 +39,7 @@
 	      <p class="oe_view_nocontent_create">Create support ticket state</p>
 	  </field>
       </record>
+-->
 
     </data>
 </openerp>

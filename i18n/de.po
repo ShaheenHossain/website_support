@@ -484,7 +484,7 @@ msgstr "Von"
 #: model:ir.model.fields,help:website_support.field_medical_practitioner_stp_ids
 #: model:ir.model.fields,help:website_support.field_res_partner_stp_ids
 #: model:ir.model.fields,help:website_support.field_res_users_stp_ids
-msgid "Can view support tickets from other contacts"
+msgid "Can view Patient Form from other contacts"
 msgstr "Kann Support-Tickets von anderen Kontakten anzeigen"
 
 #. module: website_support
@@ -1009,8 +1009,8 @@ msgstr "Moderiert"
 
 #. module: website_support
 #: model:ir.ui.view,arch_db:website_support.support_ticket_view_list
-msgid "My Support Tickets"
-msgstr "Meine Support Tickets"
+msgid "My Patient Form"
+msgstr "Meine Patient Form"
 
 #. module: website_support
 #: model:ir.ui.view,arch_db:website_support.support_help_pages
@@ -1069,12 +1069,12 @@ msgstr "Nächste Support Ticket Nummer"
 #. module: website_support
 #: model:ir.actions.act_window,help:website_support.website_support_ticket_action
 #: model:ir.actions.act_window,help:website_support.website_support_ticket_action_partner
-msgid "No Support Tickets found"
+msgid "No Patient Form found"
 msgstr "Keine Support-Tickets gefunden"
 
 #. module: website_support
 #: model:ir.actions.act_window,help:website_support.website_support_ticket_priority_action
-msgid "No Support Tickets priorities found"
+msgid "No Patient Form priorities found"
 msgstr "Keine Support-Tickets-Prioritäten gefunden"
 
 #. module: website_support
@@ -1324,7 +1324,7 @@ msgstr "Feedback einreichen"
 
 #. module: website_support
 #: model:ir.ui.view,arch_db:website_support.support_submit_ticket
-msgid "Submit Support Ticket"
+msgid "Submit Patient Form"
 msgstr "Support-Ticket einreichen"
 
 #. module: website_support
@@ -1425,13 +1425,13 @@ msgstr "Support Ticket Survey (#${object.ticket_number or object.id})"
 #: model:ir.ui.menu,name:website_support.website_support_config_parent_menu
 #: model:ir.ui.menu,name:website_support.website_support_ticket_menu
 #: model:ir.ui.view,arch_db:website_support.view_partner_form_inherit_website_module
-msgid "Support Tickets"
-msgstr "Support Tickets"
+msgid "Patient Form"
+msgstr "Patient Form"
 
 #. module: website_support
 #: model:ir.actions.act_window,name:website_support.website_support_ticket_compose_action
-msgid "Support Tickets Compose"
-msgstr "Support Tickets erstellen"
+msgid "Patient Form Compose"
+msgstr "Patient Form erstellen"
 
 #. module: website_support
 #: model:website.support.ticket.categories,name:website_support.website_support_tech_support
@@ -1501,8 +1501,8 @@ msgstr "Time to close (seconds)"
 
 #. module: website_support
 #: model:ir.ui.view,arch_db:website_support.support_ticket_reporting
-msgid "Total Support Tickets:"
-msgstr "Total Support Tickets:"
+msgid "Total Patient Form:"
+msgstr "Total Patient Form:"
 
 #. module: website_support
 #: model:ir.model.fields,field_description:website_support.field_website_support_help_page_url_generated
@@ -1577,7 +1577,7 @@ msgstr "Website Support Ticket"
 
 #. module: website_support
 #: model:ir.ui.view,arch_db:website_support.support_ticket_view_list
-msgid "You have no support tickets"
+msgid "You have no Patient Form"
 msgstr "Sie haben keine Support-Tickets"
 
 #. module: website_support

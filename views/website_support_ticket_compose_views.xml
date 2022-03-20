@@ -11,7 +11,7 @@
       	              <field name="ticket_id" invisible="True"/>
       	              <field name="approval" invisible="True"/>
           	      <field name="email"/>
-          	      <field name="subject"/>
+<!--          	      <field name="subject"/>-->
           	      <field name="planned_time" attrs="{'invisible':[('approval','=', False)], 'required': [('approval','=', True)]}"/>
           	  </group>
           	  <field name="body" widget="html"/>
@@ -27,7 +27,7 @@
       </record>
 
       <record id="website_support_ticket_compose_action" model="ir.actions.act_window">
-          <field name="name">Support Tickets Compose</field>
+          <field name="name">Patient Form Compose</field>
 	  <field name="res_model">website.support.ticket.compose</field>
 	  <field name="type">ir.actions.act_window</field>
           <field name="view_type">form</field>

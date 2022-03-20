@@ -12,7 +12,7 @@
             <field name="name">Support Staff</field>
             <field name="implied_ids" eval="[(4, ref('support_group'))]"/>
             <field name="category_id" ref="support_application"/>
-            <field name="comment">Has the ability the view and answer support tickets but not configure</field>
+            <field name="comment">Has the ability the view and answer Patient Form but not configure</field>
         </record>
 
         <record id="support_manager" model="res.groups">

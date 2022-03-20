@@ -6,13 +6,17 @@
             model="ir.values" name="set_default"
             eval="('website.support.settings', 'change_user_email_template_id', ref('website_support.support_ticket_user_change') )"/>
     
+<!--
         <function id="default_close_ticket_email_template_id"
             model="ir.values" name="set_default"
             eval="('website.support.settings', 'close_ticket_email_template_id', ref('website_support.support_ticket_closed') )"/>
+-->
 
+<!--
         <function id="default_staff_reply_email_template_id"
             model="ir.values" name="set_default"
             eval="('website.support.settings', 'staff_reply_email_template_id', ref('website_support.support_ticket_reply_wrapper') )"/>
+-->
 
         <function id="default_max_ticket_attachments"
             model="ir.values" name="set_default"

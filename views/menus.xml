@@ -2,9 +2,10 @@
 <openerp>
     <data>
 
-        <menuitem id="website_support_parent_menu" name="Customer Support" groups="support_staff" sequence="40" web_icon="website_support,static/description/menu_icon.png"/>
-        <menuitem id="website_support_ticket_menu" name="Support Tickets" parent="website_support_parent_menu" action="website_support_ticket_action" groups="support_staff" sequence="10"/>
+        <menuitem id="website_support_parent_menu" name="Appointments" groups="support_staff" sequence="40" web_icon="website_support,static/description/menu_icon.png"/>
+        <menuitem id="website_support_ticket_menu" name="Appointments" parent="website_support_parent_menu" action="website_support_ticket_action" groups="support_staff" sequence="10"/>
 
+<!--
         <menuitem id="website_support_config_parent_menu" name="Configuration" parent="website_support_parent_menu" groups="support_manager" sequence="999"/>
         <menuitem id="website_support_ticket_categories_menu" name="Categories" parent="website_support_config_parent_menu" action="website_support_ticket_categories_action" groups="support_manager" sequence="10"/>
         <menuitem id="website_support_ticket_subcategory_menu" name="Sub Categories" parent="website_support_config_parent_menu" action="website_support_ticket_subcategory_action" groups="support_manager" sequence="20"/>
@@ -14,6 +15,7 @@
         <menuitem id="website_support_help_groups_menu" name="Help Groups" parent="website_support_config_parent_menu" action="website_support_help_groups_action" groups="support_manager" sequence="80"/>
         <menuitem id="website_support_help_page_menu" name="Help Pages" parent="website_support_config_parent_menu" action="website_support_help_page_action" groups="support_manager" sequence="90"/>
         <menuitem id="website_support_settings_menu" name="Settings" parent="website_support_config_parent_menu" action="website_support_settings_action" groups="support_manager" sequence="100"/>
+-->
 
     </data>
 </openerp>

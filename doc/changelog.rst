@@ -141,7 +141,7 @@ v1.4.14
 
 v1.4.13
 =======
-* Add multiple attachments to support tickets + settings to limit quantity and filesize
+* Add multiple attachments to Patient Form + settings to limit quantity and filesize
 
 v1.4.12
 =======

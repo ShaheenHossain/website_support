@@ -90,6 +90,11 @@ class WebsiteSupportTicket(models.Model):
     approve_url = fields.Char(compute="_compute_approve_url", string="Approve URL")
     disapprove_url = fields.Char(compute="_compute_disapprove_url", string="Disapprove URL")
 
+
+
+
+
+
     @api.one
     def _compute_approve_url(self):
         self.approve_url = "/support/approve/" + str(self.id)

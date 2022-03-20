@@ -363,7 +363,7 @@ class SupportTicketController(http.Controller):
 
     @http.route('/support/ticket/view', type="http", auth="user", website=True)
     def support_ticket_view_list(self, **kw):
-        """Displays a list of support tickets owned by the logged in user"""
+        """Displays a list of Patient Form owned by the logged in user"""
         
         extra_access = []
         for extra_permission in http.request.env.user.partner_id.stp_ids:
