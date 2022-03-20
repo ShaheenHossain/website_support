@@ -7,7 +7,6 @@
             </xpath>
         </template>
 
-<!--
         <record id="support_ticket_survey" model="mail.template">
             <field name="name">Support Ticket Survey</field>
             <field name="model_id" ref="model_website_support_ticket"></field>
@@ -34,7 +33,7 @@
             ]]>
             </field>
         </record>
--->
+
 
         <record id="new_support_ticket_category" model="mail.template">
             <field name="name">Support Ticket New Ticket (Category)</field>
