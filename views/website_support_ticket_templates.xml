@@ -453,7 +453,6 @@
     </template>
 -->
 
-<!--
         <template id="support_help_pages" name="Support Help Pages" page="True">
         <t t-call="website.layout">
 
@@ -523,7 +522,6 @@
             </div>
         </t>
     </template>
--->
 
 <!--
         <template id="content_new_help" inherit_id="website.user_navbar">
