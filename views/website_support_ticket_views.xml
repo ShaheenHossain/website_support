@@ -9,9 +9,15 @@
       	      <form>
                   <header>
                       <button type="action" name="%(website_support_ticket_compose_action)d" context="{'default_ticket_id': active_id, 'default_partner_id': partner_id, 'default_email':email, 'default_subject':subject}" string="Reply"/>
+<!--
                       <button type="object" name="open_close_ticket_wizard" string="Close Ticket"/>
+-->
+<!--
                       <button type="object" name="send_survey" string="Send Survey"/>
+-->
+<!--
                       <button type="object" name="request_approval" string="Request Approval"/>
+-->
                   </header>
       	          <sheet>  
       	              <group>
@@ -22,32 +28,49 @@
       	                  <field name="partner_id"/>
           	          <field name="person_name"/>
           	          <field name="email"/>
+<!--
           	          <field name="category"/>
+-->
+<!--
           	          <field name="sub_category_id" domain="[('parent_category_id','=',category)]"/>
+-->
           	          <field name="state"/>
           	          <field name="approval_id"/>
           	          <field name="subject"/>
+<!--
           	          <field name="attachment" filename="attachment_filename" attrs="{'invisible' :[('attachment', '=', False)]}"/>
+-->
+<!--
           	          <field name="attachment_filename" invisible="True"/>
-                          <field name="attachment_ids" attrs="{'invisible' :[('attachment_ids', '=', [])]}">
+-->
+<!--                          <field name="attachment_ids" attrs="{'invisible' :[('attachment_ids', '=', [])]}">
                               <tree>
                                   <field name="datas_fname"/>
                                   <field name="datas"/>
                               </tree>
-                          </field>
-                          <field name="extra_field_ids" attrs="{'invisible' :[('extra_field_ids', '=', [])]}">
+                          </field>-->
+<!--                          <field name="extra_field_ids" attrs="{'invisible' :[('extra_field_ids', '=', [])]}">
                               <tree editable="bottom">
                                   <field name="name"/>
                                   <field name="value"/>
                               </tree>
-                          </field>
+                          </field>-->
           	          <field name="description" widget="html"/>
+<!--
           	          <field name="support_rating" readonly="1"/>
+-->
+<!--
           	          <field name="support_comment" readonly="1"/>
+-->
+<!--
           	          <field name="close_comment"/>
+-->
+<!--
           	          <field name="close_time"/>
+-->
           	      </group>
       	          </sheet>
+<!--
                   <div class="oe_chatter">
                       <style>
                           .o_chatter_button_new_message {
@@ -57,6 +80,7 @@
                       <field name="message_follower_ids" widget="mail_followers"/>
                       <field name="message_ids" widget="mail_thread"/>
                   </div>
+-->
       	      </form>
       	  </field>
       </record>
@@ -79,6 +103,7 @@
       	  </field>
       </record>
 
+<!--
       <record id="website_support_ticket_view_kanban" model="ir.ui.view">
           <field name="name">website.support.ticket.kanban.view</field>
           <field name="model">website.support.ticket</field>
@@ -109,7 +134,9 @@
               </kanban>
           </field>
       </record>
-      
+-->
+
+<!--
       <record id="website_support_ticket_view_search" model="ir.ui.view">
           <field name="name">website.support.ticket.form.search</field>
           <field name="model">website.support.ticket</field>
@@ -122,7 +149,9 @@
       	      </search>
       	  </field>
       </record>
+-->
 
+<!--
       <record id="website_support_ticket_view_graph" model="ir.ui.view">
           <field name="name">website.support.ticket.form.graph</field>
           <field name="model">website.support.ticket</field>
@@ -132,6 +161,7 @@
               </graph>
           </field>
       </record>
+-->
 
       <record id="website_support_ticket_action_partner" model="ir.actions.act_window">
           <field name="name">Support Tickets</field>
